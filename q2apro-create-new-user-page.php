@@ -1,4 +1,9 @@
 <?php
+/*
+	Plugin Name: Create New Users 
+	Plugin Author: q2apro.com
+	Plugin License: GPLv3
+*/
 
 	class q2apro_create_new_user 
 	{

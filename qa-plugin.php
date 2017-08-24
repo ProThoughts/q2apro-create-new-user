@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Create New Users 
 	Plugin URI: https://github.com/q2apro/q2apro-create-new-users
-	Plugin Description: Create new users manuallz from a seperate page for admins 
+	Plugin Description: Create new users manually from a seperate page for admins 
 	Plugin Version: 0.1
 	Plugin Date: 2017-08-24
 	Plugin Author: q2apro.com
