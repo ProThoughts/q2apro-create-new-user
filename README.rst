@@ -14,7 +14,8 @@ Installation
 #. Extract the files.
 #. Upload the files to a subfolder called ``q2apro-create-new-user`` inside the ``qa-plugin`` folder of your Q2A installation.
 #. Navigate to your site, go to **Admin -> Plugins**. Check if the plugin "Q2apro Create New User" is listed.
-#. Navigate to ``yourq2asite.com/createnewuser``. From there you (admins) can create users.
+#. Navigate to ``yourq2asite.com/createnewuser``. From there you (admins) can create one user.
+#. Navigate to ``yourq2asite.com/createnewusers``. From there you (admins) can batch-create many users.
 
 ----------
 Disclaimer

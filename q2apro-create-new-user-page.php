@@ -1,9 +1,4 @@
 <?php
-/*
-	Plugin Name: Create New Users 
-	Plugin Author: q2apro.com
-	Plugin License: GPLv3
-*/
 
 	class q2apro_create_new_user 
 	{
@@ -22,7 +17,7 @@
 		{	
 			return array(
 				array(
-					'title' => 'Create Newe User Page', // title of page
+					'title' => 'Create New User Page', // title of page
 					'request' => 'createnewuser', // request name
 					'nav' => 'M', // 'M'=main, 'F'=footer, 'B'=before main, 'O'=opposite main, null=none
 				),
@@ -32,7 +27,8 @@
 		// for url query
 		function match_request($request)
 		{
-			if ($request=='createnewuser') {
+			if ($request=='createnewuser')
+			{
 				return true;
 			}
 
