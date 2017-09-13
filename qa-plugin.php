@@ -3,8 +3,8 @@
 	Plugin Name: Create New Users 
 	Plugin URI: https://github.com/q2apro/q2apro-create-new-users
 	Plugin Description: Create new users manually from a seperate page for admins 
-	Plugin Version: 0.1
-	Plugin Date: 2017-08-24
+	Plugin Version: 0.2
+	Plugin Date: 2017-09-13
 	Plugin Author: q2apro.com
 	Plugin Author URI: http://www.q2apro.com/
 	Plugin License: GPLv3
@@ -31,8 +31,11 @@ if ( !defined('QA_VERSION') )
 	exit;
 }
 
-// page
+// page to create one user 
 qa_register_plugin_module('page', 'q2apro-create-new-user-page.php', 'q2apro_create_new_user', 'Create New User Page');
+
+// page to create many users at once 
+qa_register_plugin_module('page', 'q2apro-create-new-users-batch-page.php', 'q2apro_create_new_users_batch', 'Create New Users Batch Page');
 
 
 function q2apro_get_userid_by_email($usermail)
